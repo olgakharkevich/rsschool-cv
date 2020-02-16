@@ -1,0 +1,13 @@
+body {
+    font-size: 18px;
+    text-align: justify;
+}
+
+li {
+    padding: 6px;
+}
+
+div {
+    width: 800px;
+    margin: auto;
+}
