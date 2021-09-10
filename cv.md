@@ -34,7 +34,10 @@ function construct(Class, ...args){
 ```
 
 ### Work experience:
-EPAM Systems, Junior Sofware Developer (Front-End Developer), Nov 2020 - Sep 2021
+EPAM Systems, Junior Sofware Engineer - Nov 2020 - Sep 2021
+
+**Roles**: Front-End Developer
+
 
 ### Education and courses:
 - Higher education (Gomel State Technical University named after Sukhoi) 2009
