@@ -12,14 +12,14 @@ I want to keep up-to-date my professionals skills. **RSSchool** - the great plac
 - responsive design;
 - cross-browser development;
 - SASS, LESS, CSS3, HTML5;
-- JavaScript, React.js;
+- JavaScript, React, Angular;
 - CI/CD process organizing based on public cloud providers (Netify, GitHub Actions);
 - Jira processes.
 #### Roles: 
 - Front-End Developer.
 #### Main skills:
 - JavaScript development (ES6, ES7, React, Angular);
-- HTML/CSS development (SCSS, LESS).
+- HTML/CSS development (SASS, LESS).
 #### Responsibilities:
 - Write code with using coding standarts, semantic rules and best practices;
 - Implementation of new functionality;
@@ -36,6 +36,7 @@ function construct(Class, ...args){
 EPAM Systems, Junior Sofware Developer (Front-End Developer), Nov 2020 - Sep 2021
 
 ### Education and courses:
-
+- Higher education (Gomel State Technical University named after Sukhoi) 2009
+- The Rolling Scopes School RS 2020 Q1 (JavaScript) - top 150 (top 5 Gomel) - [Certificate](https://app.rs.school/certificate/k4xulepd)
 ### Language:
 English level - B1
