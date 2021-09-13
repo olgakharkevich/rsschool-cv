@@ -5,26 +5,26 @@
 - **Tel:** +375(29)5336785 (mts)
 
 ### My goal:
-I want to keep up-to-date my professionals skills. **RSSchool** - the great place to become better at Front-End Development :)
+I want to keep up-to-date my professionals skills. **RSSchool** -  is the great place to become better at Front-End Development :)
 
 ### About myself:
 Front-end developer with good hands-on HTML/CSS/JS coding skills, accuracy and attention to details, with great motivation to new knowledge.
 
 ### Experienced in:
-- code standards;
-- responsive design;
-- cross-browser development;
-- SASS, LESS, CSS3, HTML5;
-- JavaScript, React, Angular;
-- CI/CD process organizing based on public cloud providers (Netify, GitHub Actions);
-- Jira processes.
+- code standards
+- responsive design
+- cross-browser development
+- SASS, LESS, CSS3, HTML5
+- JavaScript, React, Angular
+- CI/CD process organizing based on public cloud providers (Netify, GitHub Actions)
+- Jira processes
 
 ### Responsibilities:
-- Write code with using coding standarts, semantic rules and best practices;
-- Implementation of new functionality;
-- Code review and code refactoring;
-- Quickly responding to any bug or production issues;
-- Participating in meetings and discussions.
+- writing code with using coding standarts, semantic rules and best practices
+- implementation of new functionality
+- code review and refactoring
+- quickly responding to any bug or production issues
+- participating in meetings and discussions
 
 ### Code example:
 ```javascript
