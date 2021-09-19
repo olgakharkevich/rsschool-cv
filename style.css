@@ -1,26 +1,73 @@
+:root {
+    --first-background-color: #DDDFDE;
+    --second-background-color: #FEEDE6;
+    --third-background-color: #E1EEE8;
+    --main-color: #414042;    
+    --link-color: #39383a;
+    --link-hover-color: #323133;
+  }
+
 @font-face {
     font-family: 'Garamond';
     src: url('./fonts/garamond.ttf');
-    font-weight: 400;
-    font-style: normal;
-  }
+}
+
+@font-face {
+    font-family: 'Garamond-Bold';
+    src: url('./fonts/garamond-bold.ttf');
+}
+
+@font-face {
+    font-family: 'Garamond-Italic';
+    src: url('./fonts/garamond-italic.ttf');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
 
 html {
     font-family: 'Garamond', Verdana, sans-serif;
-    font-weight: 400;
+    color: var(--main-color);
     font-size: 10px;
 }
 
 body {
-    font-size: 1.8rem;
-    text-align: justify;
+    font-size: 2rem;
+    background: linear-gradient(var(--first-background-color), var(--second-background-color));
 }
 
-ul, li {
-    padding: 4px;
-}
-
-div {
+.container {
+    position: relative;
     width: 1000px;
-    margin: auto;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: white;
 }
+
+nav .menu,
+footer {
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+section {
+    margin: 20px 0;
+}
+
+a {
+    text-decoration: none;
+    color: var(--link-color)
+}
+
