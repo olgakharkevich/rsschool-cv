@@ -17,11 +17,6 @@
     src: url('./fonts/garamond-bold.ttf');
 }
 
-@font-face {
-    font-family: 'Garamond-Italic';
-    src: url('./fonts/garamond-italic.ttf');
-}
-
 * {
     padding: 0;
     margin: 0;
