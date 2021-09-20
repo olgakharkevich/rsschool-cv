@@ -3,7 +3,7 @@
     --second-background-color: #FEEDE6;
     --third-background-color: #E1EEE8;
     --main-color: #414042;    
-    --link-color: #39383a;
+    --link-color: #4a395a;
     --link-hover-color: #323133;
   }
 
@@ -28,6 +28,14 @@
     box-sizing: border-box;
 }
 
+a {
+    color: var(--link-color)
+}
+
+li {
+    list-style-type: none;
+}
+
 html {
     font-family: 'Garamond', Times, serif;
     color: var(--main-color);
@@ -36,7 +44,7 @@ html {
 }
 
 body {
-    font-size: 1.6rem;
+    font-size: 2rem;
     background: linear-gradient(var(--first-background-color), var(--second-background-color));
 }
 
@@ -96,6 +104,7 @@ section p {
     align-items: center;
     border-top: solid 1px var(--main-color);
     border-bottom: solid 1px var(--main-color);
+    margin-bottom: 2rem;
 }
 
 .section-header h2 {
@@ -116,15 +125,7 @@ section.about img {
 
 section.contact .contact__list-item > div {
     display: flex;
-}
-
-a {
-    text-decoration: none;
-    color: var(--link-color)
-}
-
-li {
-    list-style-type: none;
+    align-items: center;
 }
 
 @media (max-width: 1023px) {
