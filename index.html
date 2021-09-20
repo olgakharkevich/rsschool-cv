@@ -1,41 +1,190 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title>Resume</title>
-        <link rel="stylesheet" href="style.css">
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="img/icon-cv.png" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+        <title>Olga Kharkevich</title>
     </head>
     <body>
-        <div>
-            <h1>Resume</h1>
-            <img src="my-photo.jpg" width="149" height="200" alt="Photo">
-            <ol>
-                <li>First Name, Last Name - <strong>Olga Kharkevich</strong></li>
-                <li>Contact Info - olga.kharkevich@gmail.com, <strong>+375(29)5336785 (mts)</strong></li>
-                <li>Goal, wishes - to improve skills and knowledge of javascript development and to get an interesting job offer.</li>
-                <li>Skills (e.g. programming languages, frameworks, methodologies, version control, tools etc.) - Javascript, Git; a bit less: React, Continuous Integration.</li>
-                <li>Experience:
-                    <ul>
-                        <li><a href="https://www.codewars.com/users/olgakharkevich" target="_blank">Codewars profile</a></li>
-                        <li><a href="https://htmlacademy.ru/profile/id1362555" target="_blank">Htmlacademy profile</a></li>
-                        <li><a href="https://github.com/olgakharkevich" target="_blank">GitHub profile</a></li>
-                        <li>RSSchool 2020 Q1 Final project (Team work): 
-                            <ul>
-                                <li><a href="https://github.com/s-squad/rs-lang" target="_blank">GitHub</a></li>
-                                <li><a href="https://rslang-team45-xmelsky.netlify.app/" target="_blank">Deploy</a></li>
-                            </ul>
-                        </li>
+        <div class="container">
+            <header>
+                <nav>
+                    <div class="menu">
+                        <div class="menu__home" >
+                            <a href="#home">
+                                <img src="img/icon-home.svg"
+                                    alt="home"
+                                    width="25" 
+                                    height="25">
+                            </a>
+                        </div>
 
-                    </ul>   
-                </li>
-                <li>Education (including courses, seminars, lectures, online learning):
-                    <ul>
-                        <li>Higher education (Gomel State Technical University named after Sukhoi)</li>
-                        <li>The Rolling Scopes School RS 2020 Q1 (JavaScript) - top 150 (top 5 Gomel) - <a href="https://app.rs.school/certificate/k4xulepd" target="_blank">Certificate</a></li>
-                    </ul>
-                </li>
-                <li>English level - A2.</li>
-            </ol> 
+                        <div class="menu__contact">
+                            <a href="#contact">CONTACT</a>
+                        </div>
+
+                        <div class="menu__education">
+                            <a href="#education">EDUCATION</a>
+                        </div>
+
+                        <div class="menu__skills">
+                            <a href="#skills">SKILLS</a>
+                        </div>
+
+                        <div class="menu__experience">
+                            <a href="#experience">EXPERIENCE</a>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+
+            <main>
+                <div class="column-left">
+                    <section id="home" class="about">
+                        <div><h1>Olga Kharkevich</h1></div>
+                        <div><h3>Front-End developer</h3></div>
+                        <div><img src="img/photo.jpg" width="200" alt="Photo"></div>
+                        <div class="about__description">
+                            <p>Front-end developer with good hands-on HTML/CSS/JS coding skills, accuracy and attention to details, with great motivation to new knowledge.</p>
+                        </div>
+                    </section>
+
+                    <section id="contact" class="contact">
+                        <div class="section-header">
+                            <img src="img/icon-contact.svg" width="30" height="30" alt="Contact">
+                            <h2>CONTACT</h2>
+                        </div>
+
+                        <div class="contact__content">
+                            <ul class="contact__list">
+                                <li class="contact__list-item">
+                                    <div>
+                                        <img src="img/icon-mail.svg" width="30" height="30" alt="Mail">
+                                        <span>+375(29)533-67-85 (MTS)</span>
+                                    </div>
+                                </li>
+                                <li class="contact__list-item">
+                                    <div>
+                                        <img src="img/icon-phone.svg" width="30" height="30" alt="Phone">
+                                        <span>olga.kharkevich@gmail.com</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+
+                    <section id="education" class="education">
+                        <div class="section-header">
+                            <img src="img/icon-education.svg" width="35" height="35" alt="Education">
+                            <h2>EDUCATION</h2>
+                        </div>
+
+                        <div class="education__content">
+                            <ul class="education__list">
+                                <li class="education__list-item">
+                                    Higher education (Gomel State Technical University named after Sukhoi) 2009
+                                </li>
+                                <li class="education__list-item">
+                                    The Rolling Scopes School RS 2020 Q1 (JavaScript) - top 150 (top 5 Gomel) 
+                                    <span>
+                                        <a href="https://app.rs.school/certificate/k4xulepd" 
+                                            target="_blank" 
+                                            rel="noreferrer">
+                                            Certificate
+                                        </a>
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+                
+                <div class="column-right">
+                    <section id="skills" class="skills">
+                        <div class="section-header">
+                            <img src="img/icon-skills.svg" width="30" height="30" alt="Skills">
+                            <h2>SKILLS</h2>
+                        </div>
+
+                        <div class="skills__content">
+                            <div class="skills__hard">
+                                <h4>Hard skills</h4>
+                                <ul class="hard__list">
+                                    <li class="hard__list-item">code standards</li>
+                                    <li class="hard__list-item">responsive design</li>
+                                    <li class="hard__list-item">cross-browser development</li>
+                                    <li class="hard__list-item">SASS, LESS, CSS3, HTML5</li>
+                                    <li class="hard__list-item">JavaScript, React, Angular</li>
+                                    <li class="hard__list-item">CI/CD process organizing based on public cloud providers (Netify, GitHub Actions)</li>
+                                    <li class="hard__list-item">Jira processes</li>
+                                </ul>
+                            </div>
+
+                            <div class="skills__soft">
+                                <h4>Soft skills</h4>
+                                <ul class="soft__list">
+                                    <li class="soft__list-item">negotiations</li>
+                                    <li class="soft__list-item">teamwork</li>
+                                    <li class="soft__list-item">open-mindedness</li>
+                                    <li class="soft__list-item">empathy</li>
+                                    <li class="soft__list-item">active listening</li>
+                                </ul>
+                            </div>
+
+                            <div class="skills__english">
+                                <h4>English level</h4>
+                                <ul class="skills__list">
+                                    <li class="skills__list-item">B1</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                    
+                    <section id="experience" class="experience">
+                        <div class="section-header">
+                            <img src="img/icon-experience.svg" width="35" height="35" alt="Experience">
+                            <h2>EXPERIENCE</h2>
+                        </div>
+
+                        <div class="experience__content">
+                            <h4>EPAM Systems, Junior Sofware Engineer - Nov 2020 - Sep 2021</h4>
+                            <div><span>Roles:</span>Front-End Developer</div>
+                            <h4>Responsibilities:</h4>
+                            <ul class="experience__list">
+                                <li class="experience__list-item">writing code with using coding standarts, semantic rules and best practices</li>
+                                <li class="experience__list-item">implementation of new functionality</li>
+                                <li class="experience__list-item">code review and refactoring</li>
+                                <li class="experience__list-item">quickly responding to any bug or production issues</li>
+                                <li class="experience__list-item">participating in meetings and discussions</li>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+            </main>
+            
+            <footer class="footer">
+                <div class="footer__github">
+                    <a target="_blank" href="https://github.com/olgakharkevich">
+                        <img src="img/icon-github.svg" 
+                            width="100" 
+                            height="50" 
+                            alt="Github logo" 
+                            title="Olga Kharkevich on Github">
+                    </a>
+                </div>
+                <div class="footer__year">2021</div>
+                <div class="footer__logo-rs-school">
+                    <a href="https://rs.school/js/" target="_blank">
+                        <img src="img/logo-rs-school.svg" 
+                            width="100" 
+                            height="50" 
+                            alt="RSSchool link"
+                            title="The best JavaScript/Front-end course :)"/>
+                    </a>
+                </div>
+            </footer>
         </div>   
     </body>
 </html>
