@@ -4,7 +4,7 @@
     --third-background-color: #E1EEE8;
     --main-color: #414042;
     --link-color: #4a395a;
-    --link-hover-color: #b9a6cc;
+    --link-hover-color: #9b8ea8;
   }
 
 @font-face {
@@ -52,6 +52,10 @@ body {
     background: linear-gradient(var(--first-background-color), var(--second-background-color));
 }
 
+#home, #contact, #education, #skills, #experience {   
+    scroll-margin-top: 50px;
+}
+
 .container {
     /* position: relative; */
     display: flex;
@@ -60,11 +64,28 @@ body {
     width: 950px;
     min-height: 100vh;
     margin: 0 auto;
-    padding: 2rem 5rem;
+    padding: 0 5rem;
     background-color: white;
 }
 
-nav .menu,
+.header .wrapper {
+    position: fixed;
+    height: 50px;
+    width: 950px;
+    margin: 0 auto;
+    padding: 0 7rem;
+    line-height: 5rem;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background-color: white;
+}
+
+.header__navigation-mobile.hidden {
+    display: none;
+}
+
+nav ul.navigation,
 footer {
     display: flex;
     align-content: center;
@@ -74,9 +95,14 @@ footer {
     font-size: 2.5rem;
 }
 
+nav img {
+    vertical-align: middle;
+}
+
 main {
     display: grid;
     grid-template-columns: 40% 60%;
+    padding-top: 35px;
 }
 
 main > div {
@@ -103,7 +129,7 @@ h3 {
 
 h4 {
     font-size: 2.5rem;
-    padding: 1rem 0;
+    padding-bottom: 1rem;
 }
 
 section {
@@ -168,20 +194,48 @@ section.contact ul > li {
     margin-right: 1rem;
 }
 
+.skills__content > div,
+.experience__content > div {
+    margin-bottom: 2rem;
+}
+
 @media (max-width: 1023px) {
-    .container {
+    .container,
+    .header .wrapper {
         width: 100vw;
     }
 
     main {
         grid-template-columns: 100%;
     }
+
+    section {
+        margin: 0.5rem;
+    }
 }
 
 @media (max-width: 767px) {
-    /* html {
-      font-size: 8px;
-    } */
-    /* burger menu */
+    .header__navigation.hidden {
+        display: none;
+    }
+
+    .header__navigation-mobile.hidden {
+        display: block;
+    }
 }
 
+@media (max-width: 424px) {
+    .container {
+        padding: 0 1rem;
+    }
+}
+
+@media (max-width: 374px) {
+    html {
+        font-size: 8px;
+    }
+
+    section:not(.contact) ul {
+        padding-left: 13px;
+    }
+}
