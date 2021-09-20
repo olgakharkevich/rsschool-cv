@@ -8,41 +8,67 @@
         <title>Olga Kharkevich</title>
     </head>
     <body>
-        <div class="container">
-            <header>
-                <nav>
-                    <div class="menu">
-                        <div class="menu__home" >
-                            <a href="#home">
-                                <img src="img/icon-home.svg"
-                                    alt="home"
-                                    width="25" 
-                                    height="25">
-                            </a>
-                        </div>
-
-                        <div class="menu__contact">
-                            <a href="#contact">CONTACT</a>
-                        </div>
-
-                        <div class="menu__education">
-                            <a href="#education">EDUCATION</a>
-                        </div>
-
-                        <div class="menu__skills">
-                            <a href="#skills">SKILLS</a>
-                        </div>
-
-                        <div class="menu__experience">
-                            <a href="#experience">EXPERIENCE</a>
-                        </div>
+        <div class="container" id="home">
+            <header class="header">
+                <div class="wrapper">
+                    <div class="header__navigation hidden">
+                        <nav>
+                            <ul class="navigation" id="menu">
+                                <li><a href="#home">
+                                    <img src="img/icon-home.svg"
+                                        alt="home"
+                                        width="30" 
+                                        height="30">
+                                </a></li>
+                                <li><a href="#contact">CONTACT</a></li>
+                                <li><a href="#education">EDUCATION</a></li>
+                                <li><a href="#skills">SKILLS</a></li>
+                                <li><a href="#experience">EXPERIENCE</a></li>
+                            </ul>
+                        </nav>
                     </div>
-                </nav>
+
+                    <div class="header__navigation-mobile hidden">
+                        <nav>
+                            <ul class="navigation" id="menu">
+                                <li><a href="#home">
+                                    <img src="img/icon-home.svg"
+                                        alt="home"
+                                        width="30" 
+                                        height="30"></a></li>
+
+                                <li><a href="#contact">
+                                    <img src="img/icon-contact.svg"
+                                        alt="home"
+                                        width="30" 
+                                        height="30"></a></li>
+
+                                <li><a href="#education">
+                                    <img src="img/icon-education.svg"
+                                        alt="home"
+                                        width="40" 
+                                        height="40"></a></li>
+
+                                <li><a href="#skills">
+                                    <img src="img/icon-skills.svg"
+                                        alt="home"
+                                        width="30" 
+                                        height="30"></a></li>
+
+                                <li><a href="#experience">
+                                    <img src="img/icon-experience.svg"
+                                        alt="home"
+                                        width="40" 
+                                        height="40"></a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
             </header>
 
             <main>
                 <div class="column-left">
-                    <section id="home" class="about">
+                    <section class="about">
                         <div><h1>Olga Kharkevich</h1></div>
                         <div><h3>Front-End developer</h3></div>
                         <div><img src="img/photo.jpg" width="200" alt="Photo"></div>
@@ -61,13 +87,13 @@
                             <ul class="contact__list">
                                 <li class="contact__list-item">
                                     <div>
-                                        <img src="img/icon-mail.svg" width="30" height="30" alt="Mail">
+                                        <img src="img/icon-mail.svg" width="25" height="25" alt="Mail">
                                         <span>+375(29)533-67-85 (MTS)</span>
                                     </div>
                                 </li>
                                 <li class="contact__list-item">
                                     <div>
-                                        <img src="img/icon-phone.svg" width="30" height="30" alt="Phone">
+                                        <img src="img/icon-phone.svg" width="25" height="25" alt="Phone">
                                         <span>olga.kharkevich@gmail.com</span>
                                     </div>
                                 </li>
@@ -97,6 +123,18 @@
                                     </span>
                                 </li>
                             </ul>
+                            <div class="education_project">
+                                <h4>Project</h4>
+                                <figure>
+                                    <a href="https://rslang-team45-xmelsky.netlify.app"
+                                        target="_blank">
+                                        <img src="img/screenshot.png" 
+                                            alt="English for kids ;)"
+                                            width="290">
+                                    </a>
+                                    <figcaption>RS Lang (team work)</figcaption>
+                                </figure>
+                            </div>
                         </div>
                     </section>
                 </div>
@@ -117,7 +155,7 @@
                                     <li class="hard__list-item">cross-browser development</li>
                                     <li class="hard__list-item">SASS, LESS, CSS3, HTML5</li>
                                     <li class="hard__list-item">JavaScript, React, Angular</li>
-                                    <li class="hard__list-item">CI/CD process organizing based on public cloud providers (Netify, GitHub Actions)</li>
+                                    <li class="hard__list-item">CI/CD process (Netify, GitHub)</li>
                                     <li class="hard__list-item">Jira processes</li>
                                 </ul>
                             </div>
@@ -149,11 +187,14 @@
                         </div>
 
                         <div class="experience__content">
-                            <h4>EPAM Systems, Junior Sofware Engineer - Nov 2020 - Sep 2021</h4>
-                            <div><span>Roles:</span>Front-End Developer</div>
+                            <div class="experience__work">
+                                <h4>EPAM Systems</h4>
+                                <p>Junior Software Engineer  (Nov 2020 - Sep 2021)</p>
+                                <p><b>Roles: </b>Front-End Developer</p>
+                            </div>
                             <h4>Responsibilities:</h4>
                             <ul class="experience__list">
-                                <li class="experience__list-item">writing code with using coding standarts, semantic rules and best practices</li>
+                                <li class="experience__list-item">writing code with using coding standards, semantic rules and best practices</li>
                                 <li class="experience__list-item">implementation of new functionality</li>
                                 <li class="experience__list-item">code review and refactoring</li>
                                 <li class="experience__list-item">quickly responding to any bug or production issues</li>
