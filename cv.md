@@ -2,7 +2,7 @@
 ----------
 ### Contacts:
 - **E-mail:** olga.kharkevich@gmail.com
-- **Tel:** +375(29)5336785 (mts)
+- **Telegram:** @olga_kharkevich
 
 ### My goal:
 I want to keep up-to-date my professionals skills. **RSSchool** -  is the great place to become better at Front-End Development :)
@@ -16,11 +16,11 @@ Front-end developer with good hands-on HTML/CSS/JS coding skills, accuracy and a
 - cross-browser development
 - SASS, LESS, CSS3, HTML5
 - JavaScript, React, Angular
-- CI/CD process organizing based on public cloud providers (Netify, GitHub Actions)
+- CI/CD process organizing based on public cloud providers (Netlify, GitHub Actions)
 - Jira processes
 
 ### Responsibilities:
-- writing code with using coding standarts, semantic rules and best practices
+- writing code with using coding standards, semantic rules and best practices
 - implementation of new functionality
 - code review and refactoring
 - quickly responding to any bug or production issues
@@ -34,7 +34,7 @@ function construct(Class, ...args){
 ```
 
 ### Work experience:
-EPAM Systems, Junior Sofware Engineer - Nov 2020 - Sep 2021
+EPAM Systems, Junior Software Engineer - Nov 2020 - Sep 2021
 
 **Roles**: Front-End Developer
 
