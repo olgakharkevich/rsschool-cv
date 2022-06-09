@@ -17,6 +17,16 @@
     src: url('./fonts/garamond-bold.ttf');
 }
 
+@font-face {
+    font-family: 'Merriweather';
+    src: url('./fonts/Merriweather-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Merriweather-Bold';
+    src: url('./fonts/Merriweather-Bold.ttf');
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -36,14 +46,14 @@ li {
 }
 
 html {
-    font-family: 'Garamond', Times, serif;
+    font-family: 'Merriweather', Times, serif;
     color: var(--main-color);
     font-size: 10px;
     scroll-behavior: smooth;
 }
 
 body {
-    font-size: 2rem;
+    font-size: 1.8rem;
     background: linear-gradient(var(--first-background-color), var(--second-background-color));
 }
 
@@ -52,7 +62,6 @@ body {
 }
 
 .container {
-    /* position: relative; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -86,17 +95,21 @@ footer {
     align-content: center;
     justify-content: space-between;
     align-items: center;
-    font-family: 'Garamond-Bold';
+    font-family: 'Merriweather-Bold';
     font-size: 2.5rem;
 }
 
-nav img {
-    vertical-align: middle;
+nav a {
+    text-transform: uppercase;
+}
+
+nav a i {
+    font-size: 2.5rem;
 }
 
 main {
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 50% 50%;
     padding-top: 35px;
 }
 
@@ -107,7 +120,7 @@ main > div {
 }
 
 h1, h2, h3, h4 {
-    font-family: 'Garamond-Bold';
+    font-family: 'Merriweather-Bold';
 }
 
 h1 {
@@ -151,7 +164,7 @@ section p {
 }
 
 .section-header h2 {
-    font-family: 'Garamond-Bold';
+    font-family: 'Merriweather-Bold';
     letter-spacing: 3px;
     margin-left: 15px;
 }
@@ -185,7 +198,8 @@ section.contact ul > li {
     margin-bottom: 2rem;
 }
 
-.contact__list-item > div img {
+.contact__list i {
+    font-size: 2.5rem;
     margin-right: 1rem;
 }
 
