@@ -65,7 +65,7 @@ body {
 .header .wrapper {
     position: fixed;
     height: 50px;
-    max-width: 950px;
+    width: 950px;
     margin: 0 auto;
     padding: 0 5rem;
     line-height: 5rem;
@@ -222,14 +222,6 @@ section.contact ul > li {
     .header .wrapper {
         width: 100vw;
     }
-    
-    .header .wrapper{
-        margin: 0 0.5rem;
-    }
-
-    section {
-        margin: 0.5rem;
-    }
 }
 
 @media (max-width: 767px) {
@@ -258,14 +250,6 @@ section.contact ul > li {
     .header .wrapper,
     .container {
         padding: 0 1rem;
-    }
-
-    .header .wrapper {
-        height: 41px;
-    }
-
-    #home, #contact, #education, #skills, #experience {   
-        scroll-margin-top: 40px;
     }
 }
 
