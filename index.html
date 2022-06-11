@@ -19,9 +19,9 @@
                                     <i class="fa-solid fa-house-chimney"></i>
                                 </a></li>
                                 <li><a href="#contact">contact</a></li>
-                                <li><a href="#education">education</a></li>
                                 <li><a href="#skills">skills</a></li>
                                 <li><a href="#experience">experience</a></li>
+                                <li><a href="#education">education</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -33,12 +33,12 @@
                                     <i class="fa-solid fa-house-chimney"></i></a></li>
                                 <li><a href="#contact">
                                     <i class="fa-solid fa-user"></i></a></li>
-                                <li><a href="#education">
-                                    <i class="fa-solid fa-graduation-cap"></i></a></li>
                                 <li><a href="#skills">
                                     <i class="fa-solid fa-gear"></i></a></li>
                                 <li><a href="#experience">
                                     <i class="fa-solid fa-laptop-code"></i></a></li>
+                                <li><a href="#education">
+                                    <i class="fa-solid fa-graduation-cap"></i></a></li>
                             </ul>
                         </nav>
                     </div>
@@ -46,11 +46,19 @@
             </header>
 
             <main>
-                <div class="column-left">
+                <!-- <div> -->
                     <section class="about">
-                        <div><h1>Olga Kharkevich</h1></div>
-                        <div><h3>Front-End developer</h3></div>
-                        <div><img src="img/photo.jpg" width="200" alt="Photo"></div>
+                        <div class="about__title">
+                            <div class="about__title-photo">
+                                <img src="img/photo.jpg" width="200" alt="Photo">
+                            </div>
+                            <div class="about__title-text">
+                                <h1>Olga Kharkevich</h1>
+                            <!-- </div> -->
+                            <!-- <div> -->
+                                <h3>Front-End developer</h3>
+                            </div>
+                        </div>
                         <div class="about__description">
                             <p>Front-end developer with good hands-on HTML/CSS/JS coding skills, accuracy and attention to details, with great motivation to new knowledge.</p>
                         </div>
@@ -85,46 +93,8 @@
                             </ul>
                         </div>
                     </section>
+                <!-- </div> -->
 
-                    <section id="education" class="education">
-                        <div class="section-header">
-                            <img src="img/icon-education.svg" width="35" height="35" alt="Education">
-                            <h2>EDUCATION</h2>
-                        </div>
-
-                        <div class="education__content">
-                            <ul class="education__list">
-                                <li class="education__list-item">
-                                    Higher education (Gomel State Technical University named after Sukhoi) 2009
-                                </li>
-                                <li class="education__list-item">
-                                    The Rolling Scopes School RS 2020 Q1 (JavaScript) - top 150 (top 5 Gomel)
-                                    <span>
-                                        <a href="https://app.rs.school/certificate/k4xulepd"
-                                            target="_blank"
-                                            rel="noreferrer">
-                                            Certificate
-                                        </a>
-                                    </span>
-                                </li>
-                            </ul>
-                            <div class="education_project">
-                                <h4>Project</h4>
-                                <figure>
-                                    <a href="https://rslang-team45-xmelsky.netlify.app"
-                                        target="_blank">
-                                        <img src="img/screenshot.png"
-                                            alt="English for kids ;)"
-                                            width="290">
-                                    </a>
-                                    <figcaption>RS Lang (team work)</figcaption>
-                                </figure>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-
-                <div class="column-right">
                     <section id="skills" class="skills">
                         <div class="section-header">
                             <img src="img/icon-skills.svg" width="30" height="30" alt="Skills">
@@ -175,7 +145,7 @@
                             <div class="experience__work">
                                 <h4>EPAM Systems</h4>
                                 <p>Junior Software Engineer  (Nov 2020 - Sep 2021)</p>
-                                <p><b>Roles: </b>Front-End Developer</p>
+                                <p><b>Role:</b>Front-End Developer</p>
                             </div>
                             <h4>Responsibilities:</h4>
                             <ul class="experience__list">
@@ -187,7 +157,43 @@
                             </ul>
                         </div>
                     </section>
-                </div>
+
+                    <section id="education" class="education">
+                        <div class="section-header">
+                            <img src="img/icon-education.svg" width="35" height="35" alt="Education">
+                            <h2>EDUCATION</h2>
+                        </div>
+
+                        <div class="education__content">
+                            <ul class="education__list">
+                                <li class="education__list-item">
+                                    Higher education (Gomel State Technical University named after Sukhoi) 2009
+                                </li>
+                                <li class="education__list-item">
+                                    The Rolling Scopes School RS 2020 Q1 (JavaScript) - top 150 (top 5 Gomel)
+                                    <span>
+                                        <a href="https://app.rs.school/certificate/k4xulepd"
+                                            target="_blank"
+                                            rel="noreferrer">
+                                            Certificate
+                                        </a>
+                                    </span>
+                                </li>
+                            </ul>
+                            <div class="education__project">
+                                <h4>Project</h4>
+                                <figure>
+                                    <a href="https://rslang-team45-xmelsky.netlify.app"
+                                        target="_blank">
+                                        <img src="img/screenshot.png"
+                                            alt="English for kids ;)"
+                                            width="290">
+                                    </a>
+                                    <figcaption>RS Lang (team work)</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                    </section>
             </main>
 
             <footer class="footer">
