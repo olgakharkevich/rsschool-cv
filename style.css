@@ -91,6 +91,7 @@ footer {
     align-items: center;
     font-family: 'Merriweather-Bold';
     font-size: 2.5rem;
+    border-top: solid 1px var(--main-color);
 }
 
 nav a {

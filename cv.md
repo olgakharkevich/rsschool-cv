@@ -1,14 +1,15 @@
 # Olga Kharkevich
 ----------
 ### Contacts:
-- **E-mail:** olga.kharkevich@gmail.com
+- **E-mail:** olga@kharkevich.org
 - **Telegram:** @olga_kharkevich
 
 ### My goal:
 I want to keep up-to-date my professionals skills. **RSSchool** -  is the great place to become better at Front-End Development :)
 
 ### About myself:
-Front-end developer with good hands-on HTML/CSS/JS coding skills, accuracy and attention to details, with great motivation to new knowledge.
+Front-end developer with 1 year of experience in HTML, CSS, and JavaScript, focused on creating high-quality, responsive, and cross-browser compatible applications. Experienced in implementing best practices, including coding standards and version control, to ensure clean, maintainable code. Proficient with React.js and familiar with agile methodologies, effectively collaborating in SCRUM processes to achieve project goals. A quick learner who adapts well to new environments and technologies, bringing strong attention to detail and a commitment to continuous improvement.
+
 
 ### Experienced in:
 - code standards
@@ -34,7 +35,7 @@ function construct(Class, ...args){
 ```
 
 ### Work experience:
-EPAM Systems, Junior Software Engineer - Nov 2020 - Sep 2021
+EPAM Systems, Junior Software Engineer - Jul 2020 - Sep 2021
 
 **Roles**: Front-End Developer
 
