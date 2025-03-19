@@ -144,7 +144,7 @@ section {
 }
 
 section p {
-    text-indent: 1rem;
+    text-indent: 2rem;
     line-height: 3rem;
 }
 
@@ -192,6 +192,19 @@ section:not(.contact) ul > li {
     align-items: center;
 }
 
+.about__list {
+    list-style: none;
+}
+
+.about__list i {
+    padding: 0.5rem;
+}
+
+.about__list span {
+    font-family: 'Merriweather-Bold';
+    padding-right: 1rem;
+}
+
 section.contact .contact__list-item > div {
     display: flex;
     align-items: center;
@@ -206,6 +219,11 @@ section.contact ul > li {
     margin-right: 1rem;
 }
 
+.contact__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 .skills__content {
     display: flex;
     flex-direction: row;
@@ -214,7 +232,7 @@ section.contact ul > li {
 
 .skills__content {
     display: grid;
-    grid-template-columns: 1.5fr 1fr;
+    grid-template-columns: 1fr 1fr;
 }
 
 .skills__hard {
@@ -263,7 +281,8 @@ section.contact ul > li {
         margin-bottom: 2rem;
     }
     
-    .skills__content {
+    .skills__content,
+    .contact__content {
         grid-template-columns: 1fr;
     }
 
