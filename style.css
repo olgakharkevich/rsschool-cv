@@ -144,7 +144,6 @@ section {
 }
 
 section p {
-    text-indent: 2rem;
     line-height: 3rem;
 }
 
@@ -247,10 +246,33 @@ section.contact ul > li {
     margin-bottom: 2rem;
 }
 
-.experience b {
+li.education__list-item > p:first-child {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+/* .experience b {
     font-family: 'Garamond-Bold';
     font-size: 2.2rem;
     margin-right: 0.5rem;
+} */
+
+.experience__work .item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer .copyright {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Merriweather';
+    font-size: 1.8rem;
 }
 
 @media (max-width: 1023px) {
